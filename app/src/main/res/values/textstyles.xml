@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Text"/>
+    <!-- RED -->
+    <style name="Text.Red">
+        <item name="android:textColor">@color/main_red</item>
+    </style>
+    <style name="Text.Red.10">
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+    <style name="Text.Red.10.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Red.12">
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+    <style name="Text.Red.12.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Red.14">
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+    <style name="Text.Red.14.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Red.16">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+    <style name="Text.Red.16.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Red.18">
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+    <style name="Text.Red.18.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Red.20">
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+    <style name="Text.Red.20.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- BLUE -->
+    <style name="Text.Blue">
+        <item name="android:textColor">@color/link</item>
+    </style>
+    <style name="Text.Blue.10">
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+    <style name="Text.Blue.10.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Blue.12">
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+    <style name="Text.Blue.12.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Blue.14">
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+    <style name="Text.Blue.14.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Blue.16">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+    <style name="Text.Blue.16.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Blue.18">
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+    <style name="Text.Blue.18.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Blue.20">
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+    <style name="Text.Blue.20.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- YELLOW -->
+    <style name="Text.Yellow">
+        <item name="android:textColor">@color/accent_yellow</item>
+    </style>
+    <style name="Text.Yellow.10">
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+    <style name="Text.Yellow.10.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Yellow.12">
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+    <style name="Text.Yellow.12.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Yellow.14">
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+    <style name="Text.Yellow.14.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Yellow.16">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+    <style name="Text.Yellow.16.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Yellow.18">
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+    <style name="Text.Yellow.18.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Yellow.20">
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+    <style name="Text.Yellow.20.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- BLACK -->
+    <style name="Text.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Text.Black.10">
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+    <style name="Text.Black.10.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Black.12">
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+    <style name="Text.Black.12.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Black.14">
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+    <style name="Text.Black.14.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Black.16">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+    <style name="Text.Black.16.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Black.18">
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+    <style name="Text.Black.18.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Black.20">
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+    <style name="Text.Black.20.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- DARK_GRAY -->
+    <style name="Text.Gray1">
+        <item name="android:textColor">@color/gray1</item>
+    </style>
+    <style name="Text.Gray1.10">
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+    <style name="Text.Gray1.10.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Gray1.12">
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+    <style name="Text.Gray1.12.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Gray1.14">
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+    <style name="Text.Gray1.14.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Gray1.16">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+    <style name="Text.Gray1.16.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Gray1.18">
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+    <style name="Text.Gray1.18.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Gray1.20">
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+    <style name="Text.Gray1.20.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Gray -->
+    <style name="Text.Gray2">
+        <item name="android:textColor">@color/gray2</item>
+    </style>
+    <style name="Text.Gray2.10">
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+    <style name="Text.Gray2.10.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Gray2.12">
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+    <style name="Text.Gray2.12.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Gray2.14">
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+    <style name="Text.Gray2.14.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Gray2.16">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+    <style name="Text.Gray2.16.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Gray2.18">
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+    <style name="Text.Gray2.18.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Gray2.20">
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+    <style name="Text.Gray2.20.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- LIGHT_GRAY -->
+    <style name="Text.Gray3">
+        <item name="android:textColor">@color/gray3</item>
+    </style>
+    <style name="Text.Gray3.10">
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+    <style name="Text.Gray3.10.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Gray3.12">
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+    <style name="Text.Gray3.12.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Gray3.14">
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+    <style name="Text.Gray3.14.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Gray3.16">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+    <style name="Text.Gray3.16.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Gray3.18">
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+    <style name="Text.Gray3.18.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.Gray3.20">
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+    <style name="Text.Gray3.20.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- WHITE -->
+    <style name="Text.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Text.White.10">
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+    <style name="Text.White.10.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.White.12">
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+    <style name="Text.White.12.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.White.14">
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+    <style name="Text.White.14.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.White.16">
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+    <style name="Text.White.16.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.White.18">
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+    <style name="Text.White.18.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Text.White.20">
+        <item name="android:textSize">@dimen/text_size_20</item>
+    </style>
+    <style name="Text.White.20.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>

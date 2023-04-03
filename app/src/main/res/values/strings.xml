@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MVVMNew</string>
+    <string name="staff">STAFF</string>
+    <string name="users">Users</string>
+    <string name="no_user">User Not Found</string>
+    <string name="retry">Tap to Retry</string>
+    <string name="order_history">Order history</string>
+    <string name="message_order_list_zero_match">Empty List Users</string>
+</resources>

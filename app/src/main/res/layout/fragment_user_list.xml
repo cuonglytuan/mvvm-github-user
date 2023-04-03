@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.example.mvvmnew.ui.main.UserListViewModel" />
+
+        <import type="com.example.mvvmnew.vo.GithubState.Failure.FetchError" />
+
+        <import type="com.example.mvvmnew.vo.GithubState.Loading" />
+
+        <import type="com.example.mvvmnew.vo.GithubState.Fetched.HasContents"/>
+
+        <import type="com.example.mvvmnew.vo.GithubState.Fetched.ZeroMatch" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:background="@drawable/shape_backscreen_open">
+
+        <FrameLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="12dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/order_history"
+                android:textAppearance="@style/Text.White.18.Bold" />
+
+        </FrameLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="-16dp"
+            android:animateLayoutChanges="true"
+            android:paddingBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="@color/gray4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/appbar">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/order_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:paddingTop="16dp"
+                android:paddingBottom="32dp"
+                android:background="@color/white"
+                app:visibleOrGone="@{viewModel.state instanceof HasContents}"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/list_user_at" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                app:visibleOrGone="@{viewModel.state instanceof ZeroMatch}">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="64dp"
+                    android:src="@drawable/shape_backscreen_open"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/message_order_list_zero_match"
+                    android:textAppearance="@style/Text.Black.18.Bold"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

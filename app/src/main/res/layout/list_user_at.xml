@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="user"
+            type="com.example.mvvmnew.database.entity.UserEntity" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_item_size"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/user_image_size"
+            android:layout_height="@dimen/user_image_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/spacing_medium"
+            android:background="@android:color/black"
+            android:shape="ring"
+            app:cardCornerRadius="@dimen/user_image_corner">
+
+            <ImageView
+                android:id="@+id/imageViewUser"
+                android:layout_width="@dimen/user_image_size"
+                android:layout_height="@dimen/user_image_size"
+                android:adjustViewBounds="true"
+                android:background="@android:color/darker_gray"
+                android:contentDescription="@null"
+                app:imageUrl="@{user.avatarUrl}"
+                android:padding="@dimen/user_image_stoke" />
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/spacing_medium"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@{user.login}"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/user_badge_size"
+                android:layout_below="@+id/textViewName"
+                android:background="@drawable/rounded_corner"
+                android:paddingStart="@dimen/spacing_small"
+                android:paddingEnd="@dimen/spacing_small"
+                android:text="@string/staff"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white"
+                android:visibility="gone"
+                app:visibleOrGone="@{user.siteAdmin}"/>
+        </RelativeLayout>
+    </LinearLayout>
+</layout>

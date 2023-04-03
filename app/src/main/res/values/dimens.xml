@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    
+    <dimen name="user_image_size">56dp</dimen>
+    <dimen name="user_image_corner">28dp</dimen>
+    <dimen name="user_badge_size">20dp</dimen>
+    <dimen name="user_badge_corner">10dp</dimen>
+    <dimen name="user_item_size">84dp</dimen>
+    <dimen name="user_image_stoke">0.5dp</dimen>
+    <dimen name="bottom_loading_size">50dp</dimen>
+
+    <dimen name="detail_user_image_size">120dp</dimen>
+    <dimen name="detail_user_image_corner">60dp</dimen>
+</resources>

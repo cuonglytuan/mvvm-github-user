@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="header_color_open_start">#FF0033</color>
+    <color name="header_color_open_end">#FF6246</color>
+    <color name="header_color_close_start">#174B96</color>
+    <color name="header_color_close_end">#4C60A6</color>
+
+    <color name="main_red">#FF0033</color>
+    <color name="main_red_hover">#FF99AD</color>
+
+    <color name="accent_yellow">#FFA700</color>
+    <color name="accent_yellow_hover">#FFBF45</color>
+
+    <color name="attention">#FFF3C7</color>
+    <color name="attention_hover">#FFF9E4</color>
+
+    <color name="link">#1A75FF</color>
+    <color name="link_hover">#4C88FF</color>
+
+    <color name="black">#323232</color>
+    <color name="black_hover">#707070</color>
+
+    <color name="gray1">#686868</color>
+    <color name="gray1_hover">#919191</color>
+
+    <color name="gray2">#DDDDDD</color>
+    <color name="gray2_hover">#E6E6E6</color>
+
+    <color name="gray3">#EDEDED</color>
+    <color name="gray3_hover">#F0F0F0</color>
+
+    <color name="gray4">#F7F7F8</color>
+
+    <color name="border">#DDDDDD</color>
+    <color name="border_hover">#E6E6E6</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_hover">#F2F2F2</color>
+
+    <color name="white_transparent_90">#E5FFFFFF</color>
+    <color name="white_hover_transparent_90">#E5F2F2F2</color>
+
+    <color name="white_transparent_80">#D0FFFFFF</color>
+    <color name="gray2_transparent_80">#D0EDEDED</color>
+
+    <color name="carousel_unselected">#BDBDBD</color>
+    <color name="notice_background">#FFF3C7</color>
+    <color name="shadow">#80000000</color>
+
+    <color name="status_bar_night">#12438A</color>
+    <color name="status_bar_day">#EE0030</color>
+
+    <color name="snackbar_action">#74BCFF</color>
+</resources>
